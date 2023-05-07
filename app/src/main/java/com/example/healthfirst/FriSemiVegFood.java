@@ -19,12 +19,12 @@ public class FriSemiVegFood extends AppCompatActivity {
 
         datalist=new ArrayList<>();
 
-        datalist.add(new Modal(R.drawable.watermelon1,"Watermelon"));
-        datalist.add(new Modal(R.drawable.almond1,"Almond"));
-        datalist.add(new Modal(R.drawable.blueberry1,"Blueberry"));
+        datalist.add(new Modal(R.drawable.watermelon1,"Dưa hấu"));
+        datalist.add(new Modal(R.drawable.almond1,"Hạnh nhân"));
+        datalist.add(new Modal(R.drawable.blueberry1,"Việt quất"));
         datalist.add(new Modal(R.drawable.cherry1,"Cherry"));
-        datalist.add(new Modal(R.drawable.salmon1,"Salmons"));
-        datalist.add(new Modal(R.drawable.chicken1,"Chicken"));
+        datalist.add(new Modal(R.drawable.salmon1,"Cá hồi"));
+        datalist.add(new Modal(R.drawable.chicken1,"Thịt gà"));
 
         //datalist.add(new Modal(R.drawable.mobile));
 

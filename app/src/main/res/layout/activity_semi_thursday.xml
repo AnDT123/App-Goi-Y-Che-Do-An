@@ -15,7 +15,7 @@
         android:layout_marginStart="110dp"
         android:layout_marginLeft="110dp"
         android:layout_marginTop="650dp"
-        android:text="Food Items"
+        android:text="Thực đơn"
         app:cornerRadius="20dp"
         />
 

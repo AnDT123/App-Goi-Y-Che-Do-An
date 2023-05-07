@@ -32,12 +32,10 @@ import java.util.ArrayList;
 public class RecyclerViewAdapter extends Adapter<RecyclerViewAdapter.ViewHolder> {
     private Context context;
     private ArrayList<Modal> arrayList;
-    //ClickListiner listiner;
 
     public RecyclerViewAdapter(Context context, ArrayList<Modal> arrayList) {
         this.context = context;
         this.arrayList = arrayList;
-        //this.listiner=listiner;
 
     }
 

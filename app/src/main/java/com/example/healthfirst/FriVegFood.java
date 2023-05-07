@@ -20,10 +20,10 @@ public class FriVegFood extends AppCompatActivity {
 
         datalist=new ArrayList<>();
 
-        datalist.add(new Modal(R.drawable.pineapple1,"Pineapple"));
-        datalist.add(new Modal(R.drawable.passion1,"Passion fruit"));
-        datalist.add(new Modal(R.drawable.pomegranate1,"Pomegranate"));
-        datalist.add(new Modal(R.drawable.watermelon1,"Watermelon"));
+        datalist.add(new Modal(R.drawable.pineapple1,"Dứa"));
+        datalist.add(new Modal(R.drawable.passion1,"Chanh leo"));
+        datalist.add(new Modal(R.drawable.pomegranate1,"Thạch lựu"));
+        datalist.add(new Modal(R.drawable.watermelon1,"Dưa hấu"));
 
         //datalist.add(new Modal(R.drawable.mobile));
 

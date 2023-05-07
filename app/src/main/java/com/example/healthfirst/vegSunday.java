@@ -50,7 +50,7 @@ public class vegSunday extends AppCompatActivity {
         pieChart.setUsePercentValues(true);
         pieChart.setEntryLabelTextSize(12);
         pieChart.setEntryLabelColor(Color.BLACK);
-        pieChart.setCenterText("Vitamins & Minerals");
+        pieChart.setCenterText("Vitamins & Chất khoáng");
         pieChart.setCenterTextSize(24);
         pieChart.getDescription().setEnabled(false);
 
@@ -66,11 +66,11 @@ public class vegSunday extends AppCompatActivity {
         ArrayList<PieEntry> entries = new ArrayList<>();
 
 
-        entries.add(new PieEntry(0.24f,"Magnesium"));
+        entries.add(new PieEntry(0.24f,"Magie"));
         entries.add(new PieEntry(0.56f,"Vitamin B5"));
         entries.add(new PieEntry(0.35f,"Vitamin C "));
-        entries.add(new PieEntry(0.2f,"Glutamic acid"));
-        entries.add(new PieEntry(0.41f,"Choline"));
+        entries.add(new PieEntry(0.2f,"Axit Glutamic"));
+        entries.add(new PieEntry(0.41f,"Cholin"));
 
 
         /*for (int i = 0; i < names.length; i++) {

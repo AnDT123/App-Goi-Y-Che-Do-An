@@ -47,7 +47,7 @@ public class semiMonday extends AppCompatActivity {
         pieChart.setUsePercentValues(true);
         pieChart.setEntryLabelTextSize(12);
         pieChart.setEntryLabelColor(Color.BLACK);
-        pieChart.setCenterText("Vitamins & Minerals");
+        pieChart.setCenterText("Vitamins & Chất khoáng");
         pieChart.setCenterTextSize(24);
         pieChart.getDescription().setEnabled(false);
 
@@ -64,10 +64,10 @@ public class semiMonday extends AppCompatActivity {
 
         entries.add(new PieEntry(0.56f,"Vitamin B2"));
         entries.add(new PieEntry(0.25f,"Vitamin C "));
-        entries.add(new PieEntry(0.35f,"Potassium"));
-        entries.add(new PieEntry(0.1f,"Sugar"));
-        entries.add(new PieEntry(0.2f,"Glutamic acid"));
-        entries.add(new PieEntry(0.3f,"Fat"));
+        entries.add(new PieEntry(0.35f,"Kali"));
+        entries.add(new PieEntry(0.1f,"Đường"));
+        entries.add(new PieEntry(0.2f,"Axit glutamic"));
+        entries.add(new PieEntry(0.3f,"Chất béo"));
         entries.add(new PieEntry(0.41f,"Choline"));
 
         /*for (int i = 0; i < names.length; i++) {

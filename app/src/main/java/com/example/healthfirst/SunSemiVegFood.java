@@ -19,13 +19,12 @@ public class SunSemiVegFood extends AppCompatActivity {
 
         datalist=new ArrayList<>();
 
-        datalist.add(new Modal(R.drawable.pineapple1,"Pineapple"));
-        datalist.add(new Modal(R.drawable.passion1,"Passion fruit"));
-        datalist.add(new Modal(R.drawable.pomegranate1,"Pomegranate"));
-        datalist.add(new Modal(R.drawable.watermelon1,"Watermelon"));
-        datalist.add(new Modal(R.drawable.pineapple1,"Pineapple"));
-        datalist.add(new Modal(R.drawable.turkey1,"Turkey"));
-        datalist.add(new Modal(R.drawable.shrimp1,"Shrimp"));
+        datalist.add(new Modal(R.drawable.pineapple1,"Dứa"));
+        datalist.add(new Modal(R.drawable.passion1,"Chanh dây"));
+        datalist.add(new Modal(R.drawable.pomegranate1,"Thạch lựu"));
+        datalist.add(new Modal(R.drawable.watermelon1,"Dưa hấu"));
+        datalist.add(new Modal(R.drawable.turkey1,"Gà tây"));
+        datalist.add(new Modal(R.drawable.shrimp1,"Tôm sú"));
 
 
         //datalist.add(new Modal(R.drawable.mobile));

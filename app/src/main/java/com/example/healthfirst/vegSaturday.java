@@ -47,7 +47,7 @@ public class vegSaturday extends AppCompatActivity {
         pieChart.setUsePercentValues(true);
         pieChart.setEntryLabelTextSize(12);
         pieChart.setEntryLabelColor(Color.BLACK);
-        pieChart.setCenterText("Vitamins & Minerals");
+        pieChart.setCenterText("Vitamins & Chất khoáng");
         pieChart.setCenterTextSize(24);
         pieChart.getDescription().setEnabled(false);
 
@@ -62,12 +62,12 @@ public class vegSaturday extends AppCompatActivity {
     private void loadPieChartData() {
         ArrayList<PieEntry> entries = new ArrayList<>();
 
-        entries.add(new PieEntry(0.24f,"Potassium"));
-        entries.add(new PieEntry(0.36f,"Iron"));
+        entries.add(new PieEntry(0.24f,"Kali"));
+        entries.add(new PieEntry(0.36f,"Sắt"));
         entries.add(new PieEntry(0.34f,"Vitamin K"));
         entries.add(new PieEntry(0.55f,"Vitamin B6"));
-        entries.add(new PieEntry(0.14f,"Sugar"));
-        entries.add(new PieEntry(0.44f,"Zinc"));
+        entries.add(new PieEntry(0.14f,"Đường"));
+        entries.add(new PieEntry(0.44f,"Kẽm"));
 
         /*for (int i = 0; i < names.length; i++) {
             entries.add(new PieEntry(quantity[i], names[i]));

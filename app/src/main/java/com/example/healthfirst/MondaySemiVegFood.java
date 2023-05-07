@@ -19,11 +19,11 @@ public class MondaySemiVegFood extends AppCompatActivity {
 
         datalist=new ArrayList<>();
 
-        datalist.add(new Modal(R.drawable.apple2,"Apple"));
+        datalist.add(new Modal(R.drawable.apple2,"Táo"));
         datalist.add(new Modal(R.drawable.cherry1,"Cherry"));
-        datalist.add(new Modal(R.drawable.peach1,"Peach"));
-        datalist.add(new Modal(R.drawable.orange2,"Orange"));
-        datalist.add(new Modal(R.drawable.cod1,"Cod fish"));
+        datalist.add(new Modal(R.drawable.peach1,"Đào"));
+        datalist.add(new Modal(R.drawable.orange2,"Cam"));
+        datalist.add(new Modal(R.drawable.cod1,"Cá Tuyết"));
 
 
         RecyclerViewAdapter adapter=new RecyclerViewAdapter(this,datalist);

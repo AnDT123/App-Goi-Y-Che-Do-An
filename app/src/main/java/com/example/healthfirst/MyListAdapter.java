@@ -27,20 +27,12 @@ import java.util.Vector;
 public class MyListAdapter extends BaseAdapter implements Filterable
 {
     private final Activity context;
-    //private final String[] progNames;
-    //private final Integer[] progImages;
-    //HashMap<String,Integer> programImages;
     List<FoodItems> foodItems;
-    //FoodItems[] foodItems;
     List<FoodItems> full;
-    //List<Integer>arr;
 
     public MyListAdapter(Activity context, List<FoodItems> foodItems)
     {
-        //super(context,R.layout.listview_layout,foodItems);
         this.context = context;
-        //this.progNames = progNames;
-        //this.progImages = progImages;
         this.foodItems = foodItems;
         full = new ArrayList<>(foodItems);
     }
@@ -96,25 +88,10 @@ public class MyListAdapter extends BaseAdapter implements Filterable
         ViewHolder(View v)
         {
             tv1=(TextView)v.findViewById(R.id.FoodItemName);
-            //tv2=(TextView)v.findViewById(R.id.Description);
             ivw=(ImageView)v.findViewById(R.id.imageView);
 
 
         }
-
-        /*@Override
-        public void onClick(View v) {
-            String foodname = tv1.getText().toString();
-            Log.d("listt :",foodname);
-            if(MainActivity2.active) {
-                Intent intent = new Intent(context, MainActivity4.class);
-                intent.putExtra("foodname",foodname);
-            }
-            else if(MainActivity3.active){
-                Intent intent = new Intent(context, MainActivity5.class);
-                intent.putExtra("foodname",foodname);
-            }
-        }*/
     }
 
 
@@ -162,28 +139,3 @@ public class MyListAdapter extends BaseAdapter implements Filterable
 
     }
 }
-
-/*
-    FilterResults filterResults=new FilterResults();
-                    if(constraint==null || constraint.length()==0)
-                    {
-                            filterResults.count=itemsModelList.size();
-                            filterResults.values=itemsModelList;
-
-                            }
-                            else
-
-                            {
-                            String searchStr= constraint.toString().toLowerCase();
-                            List<ItemsModel> resultData=new ArrayList<>( );
-
-        for(ItemsModel itemsModel:itemsModelList)
-        {
-        if (itemsModel.getName().toLowerCase(Locale.getDefault()).contains(searchStr))
-        //if( itemsModel.getName().contains(searchStr) || (itemsModel.getName().toLowerCase() == searchStr) )
-        resultData.add(itemsModel);
-        }
-        filterResults.count=resultData.size();
-        filterResults.values=resultData;
-        }
-        return filterResults;*/

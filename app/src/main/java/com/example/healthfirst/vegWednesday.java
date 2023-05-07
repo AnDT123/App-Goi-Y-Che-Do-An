@@ -44,7 +44,7 @@ public class vegWednesday extends AppCompatActivity {
         pieChart.setUsePercentValues(true);
         pieChart.setEntryLabelTextSize(12);
         pieChart.setEntryLabelColor(Color.BLACK);
-        pieChart.setCenterText("Vitamins & Minerals");
+        pieChart.setCenterText("Vitamins & Chất khoáng");
         pieChart.setCenterTextSize(24);
         pieChart.getDescription().setEnabled(false);
 
@@ -61,10 +61,10 @@ public class vegWednesday extends AppCompatActivity {
 
         entries.add(new PieEntry(0.4f,"Vitamin C"));
         entries.add(new PieEntry(0.2f,"Vitamin K"));
-        entries.add(new PieEntry(0.21f,"Iron"));
+        entries.add(new PieEntry(0.21f,"Sắt"));
         entries.add(new PieEntry(0.5f,"Zeaxanthin"));
-        entries.add(new PieEntry(0.5f,"Protein"));
-        entries.add(new PieEntry(0.17f,"Water"));
+        entries.add(new PieEntry(0.5f,"Chất đạm"));
+        entries.add(new PieEntry(0.17f,"Nước"));
         entries.add(new PieEntry(0.2f,"Vitamin B6"));
 
 

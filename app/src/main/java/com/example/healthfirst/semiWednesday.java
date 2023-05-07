@@ -48,7 +48,7 @@ public class semiWednesday extends AppCompatActivity {
         pieChart.setUsePercentValues(true);
         pieChart.setEntryLabelTextSize(12);
         pieChart.setEntryLabelColor(Color.BLACK);
-        pieChart.setCenterText("Vitamins & Minerals");
+        pieChart.setCenterText("Vitamins & Chất khoáng");
         pieChart.setCenterTextSize(24);
         pieChart.getDescription().setEnabled(false);
 
@@ -64,11 +64,11 @@ public class semiWednesday extends AppCompatActivity {
         ArrayList<PieEntry> entries = new ArrayList<>();
 
         entries.add(new PieEntry(0.14f,"Vitamin C"));
-        entries.add(new PieEntry(0.16f,"Potassium"));
+        entries.add(new PieEntry(0.16f,"Kali"));
         entries.add(new PieEntry(0.55f,"Vitamin K"));
-        entries.add(new PieEntry(0.25f,"Carbs"));
-        entries.add(new PieEntry(0.1f,"Fiber"));
-        entries.add(new PieEntry(0.4f,"Calories"));
+        entries.add(new PieEntry(0.25f,"Tinh bột"));
+        entries.add(new PieEntry(0.1f,"Chất xơ"));
+        entries.add(new PieEntry(0.4f,"Calo"));
 
         /*for (int i = 0; i < names.length; i++) {
             entries.add(new PieEntry(quantity[i], names[i]));

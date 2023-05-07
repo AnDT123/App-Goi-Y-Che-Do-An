@@ -20,11 +20,11 @@ public class WedSemiVegFood extends AppCompatActivity {
 
         datalist=new ArrayList<>();
 
-        datalist.add(new Modal(R.drawable.almond1,"Almonnd"));
-        datalist.add(new Modal(R.drawable.cucumber1,"Cucumber"));
-        datalist.add(new Modal(R.drawable.dragon1,"Dargon fruit"));
-        datalist.add(new Modal(R.drawable.fig1,"Fig"));
-        datalist.add(new Modal(R.drawable.egg1,"Eggs"));
+        datalist.add(new Modal(R.drawable.almond1,"Hạnh nhân"));
+        datalist.add(new Modal(R.drawable.cucumber1,"Dưa chuột"));
+        datalist.add(new Modal(R.drawable.dragon1,"Thanh long"));
+        datalist.add(new Modal(R.drawable.fig1,"Quả sung"));
+        datalist.add(new Modal(R.drawable.egg1,"Trứng"));
 
         //datalist.add(new Modal(R.drawable.mobile));
 

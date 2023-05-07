@@ -63,15 +63,11 @@ public class MainActivity10 extends AppCompatActivity {
         ArrayList<PieEntry> entries = new ArrayList<>();
 
         entries.add(new PieEntry(0.14f,"Vitamin C"));
-        entries.add(new PieEntry(0.16f,"Potassium"));
+        entries.add(new PieEntry(0.16f,"Kali"));
         entries.add(new PieEntry(0.16f,"Vitamin B5"));
-        entries.add(new PieEntry(0.1f,"Sugar"));
-        entries.add(new PieEntry(0.4f,"Fiber"));
-        entries.add(new PieEntry(0.4f,"Calcium"));
-
-        /*for (int i = 0; i < names.length; i++) {
-            entries.add(new PieEntry(quantity[i], names[i]));
-        }*/
+        entries.add(new PieEntry(0.1f,"Đường"));
+        entries.add(new PieEntry(0.4f,"Chất xơ"));
+        entries.add(new PieEntry(0.4f,"Canxi"));
 
         ArrayList<Integer> colors = new ArrayList<>();
         for (int color : ColorTemplate.MATERIAL_COLORS) {

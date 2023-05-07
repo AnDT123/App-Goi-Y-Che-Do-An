@@ -19,11 +19,11 @@ public class SunVegFood extends AppCompatActivity {
 
         datalist=new ArrayList<>();
 
-        datalist.add(new Modal(R.drawable.watermelon1,"Watermelon"));
-        datalist.add(new Modal(R.drawable.almond1,"Almond"));
-        datalist.add(new Modal(R.drawable.blueberry1,"Blueberry"));
+        datalist.add(new Modal(R.drawable.watermelon1,"Dưa hấu"));
+        datalist.add(new Modal(R.drawable.almond1,"Hạnh nhân"));
+        datalist.add(new Modal(R.drawable.blueberry1,"Việt quất"));
         datalist.add(new Modal(R.drawable.cherry1,"Cherry"));
-        datalist.add(new Modal(R.drawable.pineapple1,"Pineapple"));
+        datalist.add(new Modal(R.drawable.pineapple1,"Dứa"));
 
         //datalist.add(new Modal(R.drawable.mobile));
 

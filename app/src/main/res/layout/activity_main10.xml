@@ -14,7 +14,7 @@
         android:layout_height="70dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="650dp"
-        android:text="Food Items"
+        android:text="Thành phần thực phẩm"
         app:cornerRadius="20dp"
         />
 

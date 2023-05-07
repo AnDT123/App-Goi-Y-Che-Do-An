@@ -38,7 +38,6 @@ public class MainActivity9 extends AppCompatActivity {
         Saturday = findViewById(R.id.button66);
         Sunday = findViewById(R.id.button77);
 
-        //When button is clicked -> we pass a value to Activity10 so that we plot the right graph for the right day
         Monday.setOnClickListener(new View.OnClickListener() {
 
             @Override

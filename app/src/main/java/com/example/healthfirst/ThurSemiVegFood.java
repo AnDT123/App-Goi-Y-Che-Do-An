@@ -19,11 +19,11 @@ public class ThurSemiVegFood extends AppCompatActivity {
 
         datalist=new ArrayList<>();
 
-        datalist.add(new Modal(R.drawable.plum1,"Plum "));
-        datalist.add(new Modal(R.drawable.star1,"Star fruit"));
-        datalist.add(new Modal(R.drawable.raspberry1,"Rasberry"));
-        datalist.add(new Modal(R.drawable.carrot1,"Carrot"));
-        datalist.add(new Modal(R.drawable.sardines1,"Sardines"));
+        datalist.add(new Modal(R.drawable.plum1,"Mận "));
+        datalist.add(new Modal(R.drawable.star1,"Quả khế"));
+        datalist.add(new Modal(R.drawable.raspberry1,"Mâm xôi"));
+        datalist.add(new Modal(R.drawable.carrot1,"Cà rốt"));
+        datalist.add(new Modal(R.drawable.sardines1,"Cá mòi"));
 
 
         //datalist.add(new Modal(R.drawable.mobile));

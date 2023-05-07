@@ -20,11 +20,11 @@ public class TuesSemiVegFood extends AppCompatActivity {
 
         datalist=new ArrayList<>();
 
-        datalist.add(new Modal(R.drawable.papaya1,"Papaya"));
-        datalist.add(new Modal(R.drawable.banana2,"Banana"));
-        datalist.add(new Modal(R.drawable.corn1,"Corn"));
-        datalist.add(new Modal(R.drawable.durian1,"Durain"));
-        datalist.add(new Modal(R.drawable.crab1,"Crab"));
+        datalist.add(new Modal(R.drawable.papaya1,"Đu đủ"));
+        datalist.add(new Modal(R.drawable.banana2,"Chuối"));
+        datalist.add(new Modal(R.drawable.corn1,"Ngô"));
+        datalist.add(new Modal(R.drawable.durian1,"Sầu riêng"));
+        datalist.add(new Modal(R.drawable.crab1,"Cua"));
 
         //datalist.add(new Modal(R.drawable.mobile));
 

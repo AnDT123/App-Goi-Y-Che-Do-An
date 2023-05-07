@@ -19,11 +19,11 @@ public class SatSemiVegFood extends AppCompatActivity {
 
         datalist=new ArrayList<>();
 
-        datalist.add(new Modal(R.drawable.avocado2,"Avacado"));
-        datalist.add(new Modal(R.drawable.apricot1,"Apricot"));
-        datalist.add(new Modal(R.drawable.fig1,"Figs"));
-        datalist.add(new Modal(R.drawable.star1,"Star fruit"));
-        datalist.add(new Modal(R.drawable.pork1,"Pork"));
+        datalist.add(new Modal(R.drawable.avocado2,"Quả bơ"));
+        datalist.add(new Modal(R.drawable.apricot1,"Quả mơ"));
+        datalist.add(new Modal(R.drawable.fig1,"Sung"));
+        datalist.add(new Modal(R.drawable.star1,"Quả khế"));
+        datalist.add(new Modal(R.drawable.pork1,"Thịt lợn"));
 
         //datalist.add(new Modal(R.drawable.mobile));
 

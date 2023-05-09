@@ -43,6 +43,7 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".MainActivity3" />
         <activity android:name=".MainActivity2" />
+        <activity android:name=".BMI" />
         <activity android:name=".MainActivity6" android:exported="true"
             >
             <intent-filter>

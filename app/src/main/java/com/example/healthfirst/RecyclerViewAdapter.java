@@ -39,13 +39,6 @@ public class RecyclerViewAdapter extends Adapter<RecyclerViewAdapter.ViewHolder>
 
     }
 
-
-
-
-
-//    public TextView title;
-//    public ImageView imageView;
-
     @NonNull
     @Override
     public RecyclerViewAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -62,10 +55,6 @@ public class RecyclerViewAdapter extends Adapter<RecyclerViewAdapter.ViewHolder>
         Modal recyclerData = arrayList.get(position);
         holder.imageView.setImageResource(recyclerData.getImage1());
         holder.title.setText(recyclerData.getTitle());
-
-
-
-
     }
 
     @Override

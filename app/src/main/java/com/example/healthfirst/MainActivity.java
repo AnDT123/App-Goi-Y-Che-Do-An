@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
 
-        //NO TITLE
-        requestWindowFeature(Window.FEATURE_NO_TITLE); //will hide the title
-        getSupportActionBar().hide(); // hide the title bar
+
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getSupportActionBar().hide();
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN); //enable full screen
         setContentView(R.layout.activity_main);
-        //NO TITLE
+
 
 
         setContentView(R.layout.activity_main);setContentView(R.layout.activity_main);

@@ -38,6 +38,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:hint="_"
+        android:inputType="numberDecimal"
         android:textColorHint="#FFFFFF"/>
 
     <TextView
@@ -63,6 +64,7 @@
         android:layout_marginTop="20dp"
         android:textSize="20dp"
         android:hint="_"
+        android:inputType="numberDecimal"
         android:textColorHint="#FFFFFF"/>
 
     <Button

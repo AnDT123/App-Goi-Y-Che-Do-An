@@ -61,13 +61,11 @@ public class BMI extends AppCompatActivity {
                     int height = Integer.parseInt(etHeight.getText().toString());
                     int weight = Integer.parseInt(etWeight.getText().toString());
 
-                    // calculateBMI will return BMI
                     float BMI = calculateBMI(height, weight);
 
                     bmi.setText(decfor.format(BMI));
                     bmi.setVisibility(View.VISIBLE);
 
-                    // update the status text as per the bmi conditions
                     if (BMI < 18.5) {
                         status.setText("Under Weight");
                     } else if (BMI >= 18.5 && BMI < 24.9) {
